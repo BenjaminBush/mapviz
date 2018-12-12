@@ -38,7 +38,7 @@ const kafka = require('kafka-node'),
     consumer = new HighLevelConsumer(
         client,
         [
-            { topic: 'test' }
+            { topic: 'output' }
         ]
     );
 consumer.on('message', function (message) {
