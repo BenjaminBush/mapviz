@@ -1,36 +1,27 @@
 {
   "name": "mapviz",
   "version": "1.0.0",
-  "description": "Map visualization for traffic prediction demo",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "beefy app.js:bundle.js --live",
-    "bundle": "browserify app.js -o bundle.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BenjaminBush/mapviz.git"
   },
-  "keywords": [
-    "leaflet",
-    "leafletjs",
-    "openstreetmap",
-    "traffic",
-    "map",
-    "maps"
-  ],
-  "author": "Benjamin Bush",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BenjaminBush/mapviz/issues"
   },
   "homepage": "https://github.com/BenjaminBush/mapviz#readme",
   "dependencies": {
+    "ejs-mate": "^3.0.0",
+    "express": "^4.16.4",
     "kafka-node": "^3.0.1",
-    "leaflet": "^1.3.4"
-  },
-  "devDependencies": {
-    "beefy": "^2.1.8",
-    "browserify": "^16.2.3"
+    "leaflet": "^1.3.4",
+    "node-rdkafka": "^2.5.0",
+    "socket.io": "^2.2.0"
   }
 }
